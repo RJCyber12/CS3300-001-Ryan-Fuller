@@ -1,0 +1,63 @@
+Here is the command line output for initial setup:
+
+
+C:\Users\ryanc>git --version
+git version 2.43.0.windows.1
+
+C:\Users\ryanc>cd C:\Github_for_CS3300
+
+C:\Github_for_CS3300>cd C:\Github_for_CS3300\cs3300-version-practice
+The system cannot find the path specified.
+
+C:\Github_for_CS3300>cd C:\Github_for_CS3300\cs3300-version-practice
+
+C:\Github_for_CS3300\cs3300-version-practice>echo. > my_python_file.py
+
+C:\Github_for_CS3300\cs3300-version-practice>mkdir documentation
+
+C:\Github_for_CS3300\cs3300-version-practice>cd.
+
+C:\Github_for_CS3300\cs3300-version-practice>git init
+Initialized empty Git repository in C:/Github_for_CS3300/cs3300-version-practice/.git/
+
+C:\Github_for_CS3300\cs3300-version-practice>git add .
+
+C:\Github_for_CS3300\cs3300-version-practice>git commit -m "Initial commit for practice"
+[master (root-commit) 80b7263] Initial commit for practice
+ 1 file changed, 1 insertion(+)
+ create mode 100644 my_python_file.py
+
+C:\Github_for_CS3300\cs3300-version-practice>git remote add origin https://github.com/RJCyber12/CS3300-001-Ryan-Fuller
+
+C:\Github_for_CS3300\cs3300-version-practice>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/RJCyber12/CS3300-001-Ryan-Fuller/pull/new/master
+remote:
+To https://github.com/RJCyber12/CS3300-001-Ryan-Fuller
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Github_for_CS3300\cs3300-version-practice>
+
+
+Adding an update:
+
+
+C:\Github_for_CS3300\cs3300-version-practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        documentation/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Github_for_CS3300\cs3300-version-practice>git add documentation/Version P
+ractice Documentation Setup.txt
